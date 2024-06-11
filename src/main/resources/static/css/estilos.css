@@ -1,18 +1,41 @@
 
 *
 {
-background-color: mediumaquamarine
- }
- 
- #contenedorTitulo{
-     Color:brown;
-     text-align: center;
- }
- 
- .botonMenu{
-     Color:brown;
-     background-color: beige;
-     border-color: brown;
-     
- }
- 
+    background-color: whitesmoke;
+}
+
+#contenedorTitulo{
+    Color:brown;
+    text-align: center;
+    background-color: lavender;
+    h1 {
+        background-color: lavender;
+    }
+    p{
+        background-color: lavender;
+
+    }
+}
+#contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#contenedor > div {
+  width: 50%;
+}
+
+.parrafos{
+    color: brown;
+    text-align: left;
+
+}
+
+.botonMenu{
+    Color:brown;
+    background-color: beige;
+    border-color: brown;
+
+}
+
