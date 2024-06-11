@@ -32,10 +32,27 @@
 
 }
 
-.botonMenu{
-    Color:brown;
-    background-color: beige;
-    border-color: brown;
+.botonMenu {
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid #E2E8F0;
+    box-sizing: border-box;
+    color: #1A202C;
+    display: inline-flex;
+    font-weight: 700;
+    height: 56px;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 24px;
+    text-decoration: none;
+    width: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
 
 }
 
